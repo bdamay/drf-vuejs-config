@@ -9,7 +9,7 @@ Inspired by  https://medium.com/@jrmybrcf/how-to-build-api-rest-project-with-dja
 
 VueJS app is in the "frontend" dir
 
-### Before running app do (if you already have django installed)
+### Before running app do (assuming Python >3.6 is installed)
 
 ```
 $ pip install -r requirements
