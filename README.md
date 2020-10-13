@@ -12,6 +12,10 @@ VueJS app is in the "frontend" dir
 ### Before running app do (assuming Python >3.6 is installed)
 
 ```
+$ git clone https://github.com/bdamay/drf-vuejs-config.git
+$ cd drf-vuejs-config
+$ virtualenv venv
+$ . venv/bin/activate 
 $ pip install -r requirements
 $ python manage.py makemigrations 
 $ python manage.py migrate 
