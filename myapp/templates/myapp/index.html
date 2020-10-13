@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>DRF VueJS</title>
+
+</head>
+<body>
+<h1>Standard django app index </h1>
+<ul>
+    <li><a href="/vue">App vue JS </a></li>
+    <li><a href="/api">Accès api </a></li>
+    <li><a href="/admin">Accès admin </a></li>
+</ul>
+
+<h3>Entités </h3>
+<ul>
+{% for ent in entities %}
+    <li> {{ ent }}</li>
+{%  endfor %}
+</ul>
+</body>
+</html>
