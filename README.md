@@ -9,7 +9,9 @@ Inspired by  https://medium.com/@jrmybrcf/how-to-build-api-rest-project-with-dja
 
 VueJS app is in the "frontend" dir
 
-### Before running app do (assuming Python >3.6 is installed)
+### Before running app do (assuming Python >3.6 and node==12 is installed)
+
+Some lines below might be not necessary for your particular situation
 
 ```
 $ git clone https://github.com/bdamay/drf-vuejs-config.git
@@ -19,10 +21,11 @@ $ . venv/bin/activate
 $ pip install -r requirements
 $ python manage.py makemigrations 
 $ python manage.py migrate 
-$ python manage.py runserver python manage.py runserver 
+$ python manage.py runserver
 $ cd frontend
 $ npm install
-$ npm run serve
+$ npm run build
+$ npm run dev 
 ```
 
 vueapp Acces at http://localhost:8080/
