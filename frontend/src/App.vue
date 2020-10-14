@@ -1,19 +1,20 @@
 <template>
   <div>
     <h1> {{ msg }} </h1>
-    <test></test>
+    <qr-code-test></qr-code-test>
 
   </div>
 </template>
 
 <script>
    import Test from './components/Test.vue'
+   import QrCodeTest from "./components/QrCodeTest";
     export default {
         name: 'app',
-        components:{Test},
+        components:{QrCodeTest, Test},
         data () {
             return {
-                msg: 'Bienvenue sur un VueJS app main avec hot reload ',
+                msg: 'Application VueJS avec hot reload ',
             }
         },
     }
