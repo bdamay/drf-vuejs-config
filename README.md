@@ -32,3 +32,6 @@ vueapp Acces at http://localhost:8080/
 django is at http://localhost:8000/
 
 
+WARNING 
+Do not use this package in production !
+
