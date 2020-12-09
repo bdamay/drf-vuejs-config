@@ -1,22 +1,20 @@
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>DRF VueJS</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>DRF VueJS</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
 
-</head>
-<body>
+    </head>
+    <body>
 
-<a href="/">Back </a>
-<div>Below is VueJS loaded by webpack loader </div>
-<div style="border: 1px solid grey; padding: 1pt">
-    <div id="app"></div>
-</div>
-{% load render_bundle from webpack_loader %}
-{% render_bundle 'main' %}
+    <a href="/">Back </a>
+    <div>Below is VueJS loaded by webpack loader </div>
+        <div id="app"></div>
+    {% load render_bundle from webpack_loader %}
+    {% render_bundle 'main' %}
 
-</body>
-</html>
+    </body>
+    </html>
