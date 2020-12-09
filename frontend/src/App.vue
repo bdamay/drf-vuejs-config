@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <v-app>
+    <v-app-bar>tatat</v-app-bar>
     <h1> {{ msg }} </h1>
     <test></test>
 
-  </div>
+  </v-app>
 </template>
 
 <script>
