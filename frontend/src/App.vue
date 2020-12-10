@@ -13,7 +13,7 @@
     </v-app-bar>
 
     <v-main app>
-      <v-container fluid>
+      <v-container fluid height="100vh">
         <v-flex class="flex-row" height="100%">
           <v-row>
             <v-col cols="12">
