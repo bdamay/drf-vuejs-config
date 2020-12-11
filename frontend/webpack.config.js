@@ -4,7 +4,7 @@ var BundleTracker = require('webpack-bundle-tracker')
 var WriteFilePlugin = require('write-file-webpack-plugin')
 
 module.exports = {
-  mode:'production',
+  //mode:'production',
   entry: {
     main : './src/main.js',
   },
@@ -17,6 +17,7 @@ module.exports = {
     new BundleTracker({filename: 'webpack-stats.json'}),
     new WriteFilePlugin()
   ],
+  mode: 'development',
   module: {
     rules: [
       {

@@ -9,7 +9,7 @@
 
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>Application Django</v-toolbar-title>
     </v-app-bar>
 
     <v-main app>
@@ -18,7 +18,7 @@
           <v-row>
             <v-col cols="12">
               <v-card height="200">
-                Test Icon
+                Test Icons
                 <v-icon>mdi-arrow-collapse-down</v-icon>
                 <h1> {{ msg }} </h1>
               </v-card>
